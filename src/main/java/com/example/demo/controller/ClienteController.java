@@ -21,8 +21,6 @@ public class ClienteController {
 	@Autowired
 	private ClienteRepository ClienteRepository;
 	
-	
-	
 	@GetMapping
 	public List<Cliente> Listar() {
 		return ClienteRepository.findAll();
