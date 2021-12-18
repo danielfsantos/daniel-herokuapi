@@ -5,31 +5,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
 import lombok.Data;
 
 @Data
 @Entity
-public class Produtos {
-	
+public class Preco {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long Id;
 	
 	@Column(nullable = false)
-	private String nome;
-	
-	@Column(nullable = false)
-	private String valor;
-	
-	
-	public Produtos() {
-		
-	}
-	
-	public Produtos(String nome,String valor) {
-		this.nome = nome;
-		this.valor = valor;
-	}
-	
+	private double valor;
 }
