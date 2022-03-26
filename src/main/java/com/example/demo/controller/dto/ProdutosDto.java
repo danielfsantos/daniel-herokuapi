@@ -14,7 +14,6 @@ public class ProdutosDto {
 	private String nome;
 	private String valor;
 	
-	
 	public ProdutosDto(Produtos produto){
 		this.id = produto.getId();
 		this.nome = produto.getNome();

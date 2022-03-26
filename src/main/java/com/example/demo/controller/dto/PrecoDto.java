@@ -16,7 +16,6 @@ public class PrecoDto {
 		}
 
 		public static List<PrecoDto> converter(List<Preco> preco) {
-			// TODO Auto-generated method stub
 			return preco.stream().map(PrecoDto::new).collect(Collectors.toList());
 		}
 }

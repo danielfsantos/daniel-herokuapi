@@ -15,7 +15,6 @@ public class DanielHerokuapiApplication {
 	      return "Hello World!";
 	    }
 	
-	
 	public static void main(String[] args) {
 		SpringApplication.run(DanielHerokuapiApplication.class, args);
 	}

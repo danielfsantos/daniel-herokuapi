@@ -16,7 +16,6 @@ public class ProdutosForm {
 	@NotNull @NotEmpty 
 	private String valor;
 
-
 	public Produtos converter() {
 		return new Produtos(nome,valor);
 	}
